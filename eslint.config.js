@@ -3,6 +3,9 @@ const globals = require("globals");
 
 module.exports = [
   {
+    ignores: ["index.html", "style.css", "node_modules/", ".github/"],
+  },
+  {
     files: ["app.js"],
     languageOptions: {
       globals: {
