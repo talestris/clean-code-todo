@@ -36,6 +36,10 @@ body {
   display: flex;
 }
 
+.task-add .add-task-input {
+  flex-grow: 1;
+}
+
 ul {
   margin: 0;
   padding: 0px;
@@ -128,6 +132,7 @@ li > label {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  flex-grow: 1;
 }
 
 li > .task-edit-input {
@@ -157,7 +162,8 @@ ul#completed-tasks label {
 
 ul li.edit-mode .task-edit-input {
   display: inline-block;
-  width: 224px;
+  flex-grow: 1;
+  margin-right: 10px;
 }
 
 ul li.edit-mode label {
